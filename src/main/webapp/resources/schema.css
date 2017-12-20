@@ -1,0 +1,68 @@
+#satchel, #handle, #logo, #logobar, #grip, #bag, #lining,div, body{
+	padding: 0;
+	margin: 0;
+}
+#satchel {
+	background-color: grey;
+}
+
+#handle{
+	background-color: #dd3535;
+	min-height: 100%;
+    height: 100%;
+    mid-width:100%;
+    width:100%;
+    cursor: pointer;
+}
+
+#logo {
+	width:100%;
+	height:100%;
+}
+#logobar{
+	min-width:100%;
+	width:100%;
+	height: 6vw;
+	border-bottom: 1px solid #555555;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+#logobar:hover{}
+
+#grip{
+	background-color: #cd3535;
+	color: #555555;
+	height:7%;
+	
+	border-bottom: 1px solid #bc3535;
+}
+#grip:hover{
+	background-color: #dd4848;
+	color: #ffffff;
+	min-width:100%;
+	width:100%;
+	height:7%;	
+	border-bottom: 1px solid #cc4848;
+}
+#grip:active{
+	background-color: #dd5555;
+	border-bottom: 1px solid #cc5555;
+}
+
+#bag{
+	background-color: #555555;
+	min-height: 100%;
+    height: 100%;
+}
+
+#lining{
+	background-color: #aa3535;
+	min-width: 100%;
+	width:100%;
+	height: 6vw;
+	border-bottom: 1px solid #555555;
+}
+#barslice{
+	height:6vw;
+	border-bottom: 1px solid #555555;
+}
